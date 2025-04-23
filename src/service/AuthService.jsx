@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { API_URL } from '../../../front/src/constants/API_URL'
+import { API_URL } from '../constants/API_URL';
 
 let doLogin = async(obj)=>{
     let response = await axios.post(`${API_URL}/adminauth`,obj);
